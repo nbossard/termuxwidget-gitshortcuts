@@ -8,15 +8,19 @@ help:
 recreate_shortcuts_folder: ## 💣Delete💣 and recreate .shortcuts folder
 	rm -rf ~/.shortcuts
 	mkdir ~/.shortcuts
+	@echo "✅ Done"
 
 create_links: ## Create symbolic links in .shortcuts folder
 	# adding links for all scripts
 	# This is better than linking the whole folder cause it is more clean on widget display
-	ln -s gitaddpick.sh ~/.shortcuts/gitaddpick.sh
-	ln -s gitaddpoints.sh ~/.shortcuts/gitaddpoints.sh
-	ln -s gitdiff.sh ~/.shortcuts/gitdiff.sh
-	ln -s gitpull.sh ~/.shortcuts/gitpull.sh
-	ln -s gitpush.sh ~/.shortcuts/gitpush.sh
-	ln -s gitresethard.sh ~/.shortcuts/gitresethard.sh
-	ln -s gitstatus.sh ~/.shortcuts/gitstatus.sh
+	# -sf : create symbolic links, force if already exists
+	@echo "⏳ Creating symbolic links"
+	ln -sf gitaddpick.sh ~/.shortcuts/gitaddpick.sh
+	ln -sf gitaddpoints.sh ~/.shortcuts/gitaddpoints.sh
+	ln -sf gitdiff.sh ~/.shortcuts/gitdiff.sh
+	ln -sf gitpull.sh ~/.shortcuts/gitpull.sh
+	ln -sf gitpush.sh ~/.shortcuts/gitpush.sh
+	ln -sf gitresethard.sh ~/.shortcuts/gitresethard.sh
+	ln -sf gitstatus.sh ~/.shortcuts/gitstatus.sh
+	@echo "✅ Done"
 
