@@ -15,12 +15,12 @@ create_links: ## Create symbolic links in .shortcuts folder
 	# This is better than linking the whole folder cause it is more clean on widget display
 	# -sf : create symbolic links, force if already exists
 	@echo "⏳ Creating symbolic links"
-	ln -sf gitaddpick.sh ~/.shortcuts/gitaddpick.sh
-	ln -sf gitaddpoints.sh ~/.shortcuts/gitaddpoints.sh
-	ln -sf gitdiff.sh ~/.shortcuts/gitdiff.sh
-	ln -sf gitpull.sh ~/.shortcuts/gitpull.sh
-	ln -sf gitpush.sh ~/.shortcuts/gitpush.sh
-	ln -sf gitresethard.sh ~/.shortcuts/gitresethard.sh
-	ln -sf gitstatus.sh ~/.shortcuts/gitstatus.sh
+	ln -sf $(CURDIR)/gitaddpick.sh ~/.shortcuts/gitaddpick.sh
+	ln -sf $(CURDIR)/termuxwidget-gitshortcuts/gitaddpoints.sh ~/.shortcuts/gitaddpoints.sh
+	ln -sf $(CURDIR)/gitdiff.sh ~/.shortcuts/gitdiff.sh
+	ln -sf $(CURDIR)/gitpull.sh ~/.shortcuts/gitpull.sh
+	ln -sf $(CURDIR)/gitpush.sh ~/.shortcuts/gitpush.sh
+	ln -sf $(CURDIR)/gitresethard.sh ~/.shortcuts/gitresethard.sh
+	ln -sf $(CURDIR)/gitstatus.sh ~/.shortcuts/gitstatus.sh
 	@echo "✅ Done"
 
