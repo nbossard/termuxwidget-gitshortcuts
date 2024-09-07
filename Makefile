@@ -24,3 +24,11 @@ create_links: ## Create symbolic links in .shortcuts folder
 	ln -sf $(CURDIR)/gitstatus.sh ~/.shortcuts/gitstatus.sh
 	@echo "✅ Done"
 
+# aliases to speed up typing on small phone keyboard
+# that dont have completion
+#
+.PHONY: cl
+cl: create_links ## Alias for create_links
+
+rsf: recreate_shortcuts_folder ## Alias for recreate_shortcuts_folder
+
