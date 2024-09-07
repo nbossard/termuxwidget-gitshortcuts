@@ -16,7 +16,7 @@ create_links: ## Create symbolic links in .shortcuts folder
 	# -sf : create symbolic links, force if already exists
 	@echo "⏳ Creating symbolic links"
 	ln -sf $(CURDIR)/gitaddpick.sh ~/.shortcuts/gitaddpick.sh
-	ln -sf $(CURDIR)/termuxwidget-gitshortcuts/gitaddpoints.sh ~/.shortcuts/gitaddpoints.sh
+	ln -sf $(CURDIR)/gitaddpoints.sh ~/.shortcuts/gitaddpoints.sh
 	ln -sf $(CURDIR)/gitdiff.sh ~/.shortcuts/gitdiff.sh
 	ln -sf $(CURDIR)/gitpull.sh ~/.shortcuts/gitpull.sh
 	ln -sf $(CURDIR)/gitpush.sh ~/.shortcuts/gitpush.sh
