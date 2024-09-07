@@ -1,5 +1,5 @@
 # install script
-cd /
+cd ~
 mkdir .shortcuts
 # adding links for all scripts
 # This is better than linking the whole folder cause it is more clean on widget display
