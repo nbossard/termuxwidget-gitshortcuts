@@ -6,18 +6,17 @@ help:
 	@printf "\n"
 
 recreate_shortcuts_folder: ## 💣Delete💣 and recreate .shortcuts folder
-	cd ~
-	rm -rf .shortcuts
-	mkdir .shortcuts
+	rm -rf ~/.shortcuts
+	mkdir ~/.shortcuts
 
 create_links: ## Create symbolic links in .shortcuts folder
 	# adding links for all scripts
 	# This is better than linking the whole folder cause it is more clean on widget display
-	ln -s termuxwidget-gitshortcuts/gitaddpick.sh .shortcuts/gitaddpick.sh
-	ln -s termuxwidget-gitshortcuts/gitaddpoints.sh .shortcuts/gitaddpoints.sh
-	ln -s termuxwidget-gitshortcuts/gitdiff.sh .shortcuts/gitdiff.sh
-	ln -s termuxwidget-gitshortcuts/gitpull.sh .shortcuts/gitpull.sh
-	ln -s termuxwidget-gitshortcuts/gitpush.sh .shortcuts/gitpush.sh
-	ln -s termuxwidget-gitshortcuts/gitresethard.sh .shortcuts/gitresethard.sh
-	ln -s termuxwidget-gitshortcuts/gitstatus.sh .shortcuts/gitstatus.sh
+	ln -s gitaddpick.sh ~/.shortcuts/gitaddpick.sh
+	ln -s gitaddpoints.sh ~/.shortcuts/gitaddpoints.sh
+	ln -s gitdiff.sh ~/.shortcuts/gitdiff.sh
+	ln -s gitpull.sh ~/.shortcuts/gitpull.sh
+	ln -s gitpush.sh ~/.shortcuts/gitpush.sh
+	ln -s gitresethard.sh ~/.shortcuts/gitresethard.sh
+	ln -s gitstatus.sh ~/.shortcuts/gitstatus.sh
 
