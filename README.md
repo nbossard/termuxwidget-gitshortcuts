@@ -4,9 +4,12 @@ This folders contains bash scripts to be used by termux:widgets for managing a g
 
 ## Installation
 
-- You need termux application.
-- You need termux:widget application (payement version).
-- open termux
+Installation can be customised using a Makefile.
+
+- You need "termux" application. Available for free on Play Store
+- You need "termux:widget" application (Available on Play Store, not free)
+- launch "termux" application
 - `git clone https://github.com/nbossard/termuxwidget-gitshortcuts`
-- create a symbolic link for renaming to .shortcuts as it is the folder name expected 
-  by termux:widgets `ln -s termuxwidget-gitshortcuts .shortcuts`
+- `cd termuxwidget-gitshortcuts`
+- install "make" program if not already done using `./install.sh`
+- run `make help` and choose a target
