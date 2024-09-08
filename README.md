@@ -1,6 +1,22 @@
 # README
 
 This folders contains bash scripts to be used by termux:widgets for managing a git repository
+It will create scripts in .shortcuts folder for :
+
+- `git add -pick`
+- `git add .`
+- `git commit -m`
+- `git diff`
+- `git log`
+- `git pull`
+- `git push`
+- `git reset --hard`
+- `git status`
+
+Once installed you will get a screen like following :
+
+![The widget filled with scripts ready to be clicked](widget_on_dashboard.jpeg)
+
 
 ## Installation
 
