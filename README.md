@@ -33,6 +33,17 @@ Installation can be customised using a Makefile.
 - install "make" program if not already done using `./install.sh`
 - run `make help` and choose a target
 
+### Provide git credentials
+
+Use a `.netrc` file at the root of your repository.
+Sample content :
+
+```netrc
+machine github.com
+    login nbossard
+    password xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+```
+
 ## Alternatives
 
 You can use MGit <https://f-droid.org/fr/packages/com.manichord.mgit/> if you have access to F-droid.
