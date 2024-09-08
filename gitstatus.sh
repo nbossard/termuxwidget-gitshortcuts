@@ -1,2 +1,2 @@
-cd ~/storage/documents/obsperso
+cd  $REPO_FOLDER
 git status

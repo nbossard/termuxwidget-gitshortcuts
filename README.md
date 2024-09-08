@@ -2,6 +2,7 @@
 
 This folders contains bash scripts to be used
 by [termux:widgets](https://play.google.com/store/apps/details?id=com.termux.widget)
+(see also : <https://github.com/termux/termux-widget>).
 to help quick managing of a git repository
 It will create scripts in .shortcuts folder for :
 
@@ -32,6 +33,13 @@ Installation can be customised using a Makefile.
 - `cd termuxwidget-gitshortcuts`
 - install "make" program if not already done using `./install.sh`
 - run `make help` and choose a target
+
+### configuration
+
+Add following line in file ~/.profile
+```bash
+export REPO_FOLDER="/storage/documents/yourrepofoldername"
+```
 
 ### Provide git credentials
 
