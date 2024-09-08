@@ -1,6 +1,8 @@
 # README
 
-This folders contains bash scripts to be used by termux:widgets for managing a git repository
+This folders contains bash scripts to be used
+by [termux:widgets](https://play.google.com/store/apps/details?id=com.termux.widget)
+to help quick managing of a git repository
 It will create scripts in .shortcuts folder for :
 
 - `git add -pick`
@@ -15,7 +17,8 @@ It will create scripts in .shortcuts folder for :
 
 Once installed you will get a screen like following :
 
-![The widget filled with scripts ready to be clicked](widget_on_dashboard.jpeg)
+<img src="widget_on_dashboard.jpeg" alt="The widget filled with scripts ready to be clicked" width="250px"/>
+<img src="running_git_status.jpeg" alt="Sample screen when running git status" width="250px"/>
 
 
 ## Installation
@@ -29,3 +32,9 @@ Installation can be customised using a Makefile.
 - `cd termuxwidget-gitshortcuts`
 - install "make" program if not already done using `./install.sh`
 - run `make help` and choose a target
+
+## Alternatives
+
+You can use MGit <https://f-droid.org/fr/packages/com.manichord.mgit/> if you have access to F-droid.
+But this program will crash or block often.
+There is also a playstore version but only for old smartphones (before android 11).
