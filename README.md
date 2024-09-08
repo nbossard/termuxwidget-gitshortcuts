@@ -36,7 +36,7 @@ Installation can be customised using a Makefile.
 
 ### configuration
 
-Add following line in file ~/.profile
+Add following line in file ~/.bashrc
 ```bash
 export REPO_FOLDER="/storage/documents/yourrepofoldername"
 ```
