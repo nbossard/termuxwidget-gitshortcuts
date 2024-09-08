@@ -19,6 +19,7 @@ create_links: ## Create symbolic links in .shortcuts folder
 	ln -sf $(CURDIR)/gitaddpoints.sh ~/.shortcuts/gitaddpoints.sh
 	ln -sf $(CURDIR)/gitcommitm.sh ~/.shortcuts/gitcommitm.sh
 	ln -sf $(CURDIR)/gitdiff.sh ~/.shortcuts/gitdiff.sh
+	ln -sf $(CURDIR)/gitlog.sh ~/.shortcuts/gitlog.sh
 	ln -sf $(CURDIR)/gitpull.sh ~/.shortcuts/gitpull.sh
 	ln -sf $(CURDIR)/gitpush.sh ~/.shortcuts/gitpush.sh
 	ln -sf $(CURDIR)/gitresethard.sh ~/.shortcuts/gitresethard.sh
