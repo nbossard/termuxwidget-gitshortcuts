@@ -8,6 +8,7 @@ It will create scripts in .shortcuts folder for :
 
 - `git add -pick`
 - `git add .`
+- `git restore -p`
 - `git commit -m`
 - `git diff`
 - `git log`

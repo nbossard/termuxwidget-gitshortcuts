@@ -24,6 +24,7 @@ create_links: ## Create symbolic links in .shortcuts folder
 	ln -sf $(CURDIR)/gitpush.sh ~/.shortcuts/gitpush.sh
 	ln -sf $(CURDIR)/gitresethard.sh ~/.shortcuts/gitresethard.sh
 	ln -sf $(CURDIR)/gitresetpick.sh ~/.shortcuts/gitresetpick.sh
+	ln -sf $(CURDIR)/gitrestorepick.sh ~/.shortcuts/gitrestorepick.sh
 	ln -sf $(CURDIR)/gitstatus.sh ~/.shortcuts/gitstatus.sh
 	@echo "✅ Done"
 
