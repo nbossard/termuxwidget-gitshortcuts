@@ -8,14 +8,14 @@ It will create scripts in .shortcuts folder for :
 
 - `git add -pick`
 - `git add .`
-- `git restore -p`
 - `git commit -m`
 - `git diff`
 - `git log`
-- `git pull`
+- `git pull --rebase`
 - `git push`
 - `git reset --hard`
 - `git reset --pick`
+- `git restore --pick`
 - `git status`
 
 Once installed you will get a screen like following :

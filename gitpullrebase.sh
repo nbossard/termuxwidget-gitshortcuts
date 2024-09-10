@@ -6,4 +6,4 @@
 . $HOME/.bashrc
 cd  $REPO_FOLDER
 
-git pull -v
+git pull -v --rebase
