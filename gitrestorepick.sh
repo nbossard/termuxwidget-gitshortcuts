@@ -6,4 +6,4 @@
 . $HOME/.bashrc
 cd  $REPO_FOLDER
 
-git add -p
+git restore -p
