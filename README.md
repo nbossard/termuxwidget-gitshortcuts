@@ -14,6 +14,7 @@ It will create scripts in .shortcuts folder for :
 - `git pull`
 - `git push`
 - `git reset --hard`
+- `git reset --pick`
 - `git status`
 
 Once installed you will get a screen like following :
